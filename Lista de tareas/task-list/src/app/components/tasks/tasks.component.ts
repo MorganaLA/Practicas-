@@ -9,8 +9,8 @@ import { TASKS } from '../mock-tasks'
   styleUrls: ['./tasks.component.css']
 })
 export class TasksComponent implements OnInit {
-
   tasks: Task[]= TASKS;
+  
 
   constructor() { }
 
